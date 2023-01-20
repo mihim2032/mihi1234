@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 28px;
+    position: relative;
+    left: 910px;
+    color: black;
+    font-weight: bold;
+}
+
+nav i{
+    margin-left: 46px;
+}
+
+nav span{
+    margin-left: 46px;
+}
+
+.box{
+    background-color: rgb(255, 217, 1);
+    height: 791px;
+    width: 550px;
+    margin: 0;
+    position: relative;
+    bottom: 25px;
+}
+
+img{
+    position: relative;
+    bottom: 640px;
+    right: 820px;
+}
+
+.cv{
+    position: relative;
+    bottom: 1000px;
+    left: 856px;
+}
+
+.cv button{
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+}
+
+.cv button :hover{
+    background-color: transparent;
+}
+
+.a{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.div1{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
